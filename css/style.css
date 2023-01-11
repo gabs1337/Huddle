@@ -1,0 +1,105 @@
+
+body{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(/bg-desktop.svg);
+    padding: 50px;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Opens Sans';
+}
+
+.principalBanner{
+    padding-top: 50px;
+
+}
+
+.principalTexto{
+padding: 100px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+}
+div>h1{
+    color: white;
+    font-size: 40px;
+}
+div>p{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+button{
+    margin-top: 20px;
+    background-color: white;
+    padding: 15px 70px;
+    border-radius: 40px;
+    transition: all 0.5s;
+    color: hsl(257, 40%, 49%);
+    font-size: 20px;
+    font-family: 'Open San';
+    
+    
+}
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+
+}
+
+
+.socialMedia1{
+    fill: white;
+    margin-right: 10px;
+    transition: 0.5s;
+    width: 30px;
+    height: 30px;
+}
+.socialMedia2{
+    fill: white;
+    margin-right: 10px;
+    transition: 0.5s;
+    width: 30px;
+    height: 30px;
+}
+.socialMedia3{
+    fill: white;
+    transition: 0.5s;
+    width: 30px;
+    height: 30px;
+    }
+.iconsMedia{
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+.socialMedia1:hover{
+    transform: scale(1.5);
+}
+.socialMedia2:hover{
+    transform: scale(1.5);
+}
+.socialMedia3:hover{
+    transform: scale(1.5);
+}
